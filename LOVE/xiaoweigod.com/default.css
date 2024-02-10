@@ -1,0 +1,169 @@
+body {
+	background: rgb(38, 8, 42); margin: 0px; padding: 0px; color: rgb(35, 31, 32); overflow: auto; font-family: "΢���ź�","����",sans-serif; font-size: 14px;
+}
+a {
+	color: rgb(0, 0, 0); font-size: 14px;
+}
+#main {
+	width: 100%;
+}
+#Ariana {
+	margin: 10px auto 0px; width: 1100px; height: 680px; 
+}
+#wrap {
+	margin: 10px auto 0px; width: 1100px; height: 680px; position: relative; margin-top: 470px;
+}
+#text {
+	left: 60px; top: 80px; width: 400px; height: 425px; position: absolute;
+}
+/* 我們已經認識了的顏色 */
+#code {
+	font-size: 16px; display: none; color: #8080C0;
+}
+#clock-box {
+	left: 60px; top: 550px; font-size: 28px; display: none; position: absolute; color: #8080C0
+}
+#clock-box a {
+	font-size: 28px; text-decoration: none;
+}
+#clock {
+	margin-left: 48px;
+}
+#clock .digit {
+	font-size: 64px;
+}
+#canvas {
+	margin: 0px auto; width: 1100px; height: 680px;
+}
+#error {
+	margin: 60px auto 0px; text-align: center; display: none;
+}
+.hand {
+	cursor: pointer;
+}
+.say {
+	margin-left: 5px;
+}
+.space {
+	margin-right: 150px;
+}
+
+body, h2, p {
+	margin: 0;
+	padding: 0;
+}
+
+/* body {
+	background: url("../images/cover.jpg") no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	color: #333;
+	font-family: Helvetica, sans-serif;
+	text-align:center;
+} */
+#shineflip {
+	/*background: url("../images/cover.jpg") no-repeat;*/
+	-o-background-size: 100% 100%;	
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	background-size: 100% 100%;
+	position: absolute;
+	/* margin-left: 450px; */
+	margin:0 auto;
+}
+
+#shineflip-pages 
+{
+/*    background-color:#fafafa;*/
+    background-repeat: repeat;
+    position: absolute;
+    z-index: 2;
+}
+
+#shineflip-pages section.cover_front, #shineflip-pages section.cover_background{
+	position: absolute;
+	overflow: hidden;
+	color: #ffffff;
+}
+
+#shineflip-pages .cover_front_content
+{
+	position: absolute; 
+	z-index: 1;
+	overflow:hidden;
+	white-space:nowrap;
+	-ms-user-select:none;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+}
+
+#shineflip-pages .cover_front_back
+{
+	position: absolute; 
+	z-index: 0;
+}
+
+#shineflip-pages .cover_background_content
+{
+	position: absolute; 
+	z-index: 1;
+	overflow:hidden;
+	white-space:nowrap;
+	-ms-user-select:none;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+}
+
+#shineflip-pages .cover_background_back
+{
+	position: absolute; 
+	z-index: 0;
+}
+
+#shineflip-pages section.pageflip 
+{
+	display: block;
+	position: absolute;
+	overflow: hidden;
+}
+
+#shineflip-pages section.page {
+    background-color: #fafafa;
+	display: block;
+	position: absolute;
+	overflow: hidden;
+}
+	#shineflip-pages-flipcontent,#shineflip-pages section>div {
+		display: block;
+		font-size: 12px;
+		position: absolute;
+		overflow: hidden;
+		width:100%;
+		height:100%;
+	}
+	#shineflip-pages-flipcontent,#shineflip-pages section>span {
+		display: block;
+		font-size: 12px;
+		position: absolute;
+		overflow: hidden;
+	}
+	#shineflip-pages-flipcontent p,
+	#shineflip-pages-flipcontent h2,
+	#shineflip-pages section p,
+	#shineflip-pages section h2 {
+		line-height: 1.4em;
+		text-align: justify;
+	}
+
+#shineflip-canvas {
+	position: absolute;
+	z-index: 0;
+}
+
+#shineflip-page-mid-canvas {
+	position: absolute;
+	pointer-events: none;
+	z-index: 0;
+}
