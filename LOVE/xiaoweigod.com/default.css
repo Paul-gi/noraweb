@@ -1,5 +1,6 @@
+/* 背景色 */
 body {
-	background: rgb(38, 8, 42); margin: 0px; padding: 0px; color: rgb(35, 31, 32); overflow: auto; font-family: "΢���ź�","����",sans-serif; font-size: 14px;
+	background: rgb(92, 33, 53); margin: 0px; padding: 0px; color: rgb(0, 0, 0); overflow: auto; font-family: "΢���ź�","����",sans-serif; font-size: 14px;
 }
 a {
 	color: rgb(0, 0, 0); font-size: 14px;
@@ -16,10 +17,10 @@ a {
 #text {
 	left: 60px; top: 80px; width: 400px; height: 425px; position: absolute;
 }
-/* 我們已經認識了的顏色 */
 #code {
 	font-size: 16px; display: none; color: #8080C0;
 }
+/* 我們已經認識了的顏色 */
 #clock-box {
 	left: 60px; top: 550px; font-size: 28px; display: none; position: absolute; color: #8080C0
 }

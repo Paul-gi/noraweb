@@ -111,17 +111,6 @@
                 <DIV id="clock"></DIV>
 
             </DIV><CANVAS width="1100" height="680" id="canvas"></CANVAS>
-
-            <!-- <DIV id="textcode">
-                <FONT color="#ff0000"><SPAN class="say">
-                    還有好多話想跟你說。</SPAN><BR><SPAN class="say"></SPAN><BR><SPAN class="say">
-                        <SPAN class="say">
-                            還有好多天想跟你聊。</SPAN><BR><SPAN class="say"></SPAN><BR><SPAN class="say">
-                                <SPAN class="say">
-                                    未來我們都會更好，加油。</SPAN><BR><SPAN class="say"></SPAN><BR><SPAN class="say">
-             </FONT>
-            <P></P>
-            </DIV> -->
         </DIV>
     </DIV>
     
@@ -237,10 +226,13 @@
                 foot.draw();
                 tree.snapshot("p2", 500, 0, 610, 680);
 
-                // 会有闪烁不得意这样做, (＞﹏＜)
+                // 会有闪烁不得意这样做
                 canvas.parent().css("background", "url(" + tree.toDataURL('image/png') + ")");
-                //樹木背景的閃爍顏色
-                canvas.css("background", "#27082B");
+
+                //背景的有塊閃爍的地方的顏色
+                canvas.css("background", "#5E2236");
+
+                
                 $await(Jscex.Async.sleep(300));
                 canvas.css("background", "none");
             }));

@@ -164,13 +164,15 @@
             ctx.scale(scale, scale);
             ctx.moveTo(0, 0);
     	    ctx.lineTo(15, 15);
-    	    ctx.lineTo(60, 15);
+
+            // 愛心旁邊線的長度
+    	    ctx.lineTo(70, 15);
             ctx.stroke();
 
             ctx.moveTo(0, 0);
             ctx.scale(0.75, 0.75);
             ctx.font = "12px 微软雅黑,Verdana"; // 字号肿么没有用? (ˉ(∞)ˉ)
-            ctx.fillText("←Noraㄟ卡", 23, 10);
+            ctx.fillText("←Nora點我!", 23, 10);
             ctx.restore();
         },
         clear: function() {
@@ -200,7 +202,7 @@
             var ctx = this.tree.ctx, point = this.point;
             var len = this.length / 2;
             ctx.save();
-            ctx.strokeStyle = 'rgb(35, 31, 32)';
+            ctx.strokeStyle = 'rgb(92, 33, 53)';
             ctx.lineWidth = this.height;
             ctx.lineCap = 'round';
             ctx.lineJoin = 'round';
